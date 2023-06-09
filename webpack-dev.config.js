@@ -6,9 +6,8 @@ module.exports = {
     devtool: 'inline-source-map',
     entry: path.resolve(__dirname, './src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'dist'),
-        publicPath: "/dist/",
-        filename: "main.js"
+        path: path.resolve(__dirname, './dist'),
+        filename: "./main.js"
     },
     watch: true,
     watchOptions: {
@@ -44,7 +43,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: "src/index.html",
+            template: path.resolve(__dirname, "src/index.html"),
         })
     ]
 };
