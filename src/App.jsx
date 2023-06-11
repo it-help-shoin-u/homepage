@@ -1,10 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+/** @jsxImportSource @emotion/react */
+import PageHeader from "./components/PageHeader";
+import PageFooter from "./components/PageFooter";
 
 function App() {
     return (
-        <p>react</p>
-    )
+        <div>
+            <PageHeader />
+            <p>css</p>
+            <PageFooter />
+        </div>
+    );
 }
 
 export default App;
