@@ -1,13 +1,14 @@
 /** @jsxImportSource @emotion/react */
-import PageHeader from "./components/PageHeader";
-import PageFooter from "./components/PageFooter";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Body from "./components/Body";
 
 function App() {
     return (
         <div>
-            <PageHeader />
-            <p>css</p>
-            <PageFooter />
+            <Header />
+            <Body />
+            <Footer />
         </div>
     );
 }

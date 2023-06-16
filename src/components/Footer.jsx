@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { FooterStyle } from "../styles/components";
-function PageFooter() {
+function Footer() {
 
     return (
         <div css={FooterStyle}>
@@ -9,4 +9,4 @@ function PageFooter() {
     );
 }
 
-export default PageFooter;
+export default Footer;

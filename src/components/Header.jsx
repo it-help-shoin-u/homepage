@@ -2,7 +2,7 @@
 import { HeaderStyle } from "../styles/components";
 import { HeaderTitleFont } from "../styles/fonts";
 
-function PageHeader() {
+function Header() {
 
     return (
         <div css={HeaderStyle}>
@@ -11,4 +11,4 @@ function PageHeader() {
     );
 }
 
-export default PageHeader;
+export default Header;

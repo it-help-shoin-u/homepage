@@ -19,3 +19,9 @@ export function FooterStyle() {
       background-color: darkgray;
     `;
 }
+
+export function BodyStyle() {
+    return css `
+        background-color: blueviolet;
+    `;
+}
