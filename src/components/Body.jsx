@@ -3,9 +3,9 @@ import { BodyStyle } from "../styles/components";
 
 function Body() {
     return (
-        <>
-            <p>body</p>
-        </>
+        <div css={BodyStyle}>
+            <p>あいうえお</p>
+        </div>
     );
 }
 
