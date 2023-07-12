@@ -19,3 +19,6 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm", "start"]
+# npm startは開発用のサーバーが立ち上がる。
+# これをローカルのファイルと同期させたい場合はコンテナ実行時に--mount type=bind,src=./src,dst=/usr/src/app/srcと指定する。
+# (src=./srcはReact Appにおける一般的なソースコードが格納されているディレクトリを指定すること。）
