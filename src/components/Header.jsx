@@ -5,9 +5,9 @@ import { HeaderTitleFont } from "../styles/fonts";
 function Header() {
 
     return (
-        <div css={HeaderStyle}>
+        <header css={HeaderStyle}>
             <p css={HeaderTitleFont}>松蔭大学 ITサポートデスク</p>
-        </div>
+        </header>
     );
 }
 

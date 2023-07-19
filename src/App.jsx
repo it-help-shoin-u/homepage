@@ -1,17 +1,18 @@
 /** @jsxImportSource @emotion/react */
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Body from "./components/Body";
-import SideMenu from "./components/SideMenu";
-function App() {
-    return (
-        <div>
-            <Header />
-            <Body />
-            <SideMenu />
-            <Footer />
-        </div>
-    );
-}
+import { createBrowserRouter } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import CommonComponent from "./components/CommonComponent";
+
+const App = createBrowserRouter([
+    {
+        path: "/",
+        element: <CommonComponent />,
+        children: [
+            { index: true, element: <Home /> },
+            { path: "contact", element: <Contact /> },
+        ],
+    },
+])
 
 export default App;
