@@ -1,3 +1,4 @@
+/** @jsxImportSource @emotion/react */
 import { HomeStyle } from "../styles/components";
 
 function Home() {
