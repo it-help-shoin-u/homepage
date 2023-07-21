@@ -7,16 +7,18 @@ import HoursPlace from "./pages/HoursPlace";
 import People from "./pages/People";
 import CommonComponent from "./components/CommonComponent";
 
+const rootPath = "/homepage/";
+
 const App = createBrowserRouter([
     {
-        path: "/homepage/",
+        path: rootPath,
         element: <CommonComponent />,
         children: [
             { index: true, element: <Home /> },
-            { path: "contact", element: <Contact /> },
-            { path: "details", element: <Details />},
-            { path: "hours_place", element: <HoursPlace />},
-            { path: "people", element: <People />}
+            { path: rootPath + "contact", element: <Contact /> },
+            { path: rootPath + "details", element: <Details />},
+            { path: rootPath + "hours_place", element: <HoursPlace />},
+            { path: rootPath + "people", element: <People />}
         ],
     },
 ])
