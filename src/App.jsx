@@ -14,7 +14,7 @@ const App = createBrowserRouter([
         path: rootPath,
         element: <CommonComponent />,
         children: [
-            { index: true, element: <Home /> },
+            { path: rootPath, element: <Home /> },
             { path: rootPath + "contact", element: <Contact /> },
             { path: rootPath + "details", element: <Details />},
             { path: rootPath + "hours_place", element: <HoursPlace />},
