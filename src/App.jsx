@@ -9,6 +9,7 @@ import CommonComponent from "./components/CommonComponent";
 
 const App = createBrowserRouter([
     {
+        basename: process.env.PUBLIC_URL,
         path: "/",
         element: <CommonComponent />,
         children: [
