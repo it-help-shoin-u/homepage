@@ -9,7 +9,7 @@ import CommonComponent from "./components/CommonComponent";
 
 const App = createBrowserRouter([
     {
-        path: "homepage/",
+        path: "/homepage/",
         element: <CommonComponent />,
         children: [
             { index: true, element: <Home /> },
