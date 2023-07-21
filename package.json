@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/it-help-shoin-u/homepage/issues"
   },
-  "homepage": "https://github.com/it-help-shoin-u/homepage#readme",
+  "homepage": "https://it-help-shoin-u.github.io/homepage",
   "devDependencies": {
     "@babel/cli": "^7.21.5",
     "@babel/core": "^7.22.1",
