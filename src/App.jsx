@@ -11,7 +11,6 @@ const rootPath = "/homepage/";
 
 const App = createBrowserRouter([
     {
-        path: rootPath,
         element: <CommonComponent />,
         children: [
             { path: rootPath, element: <Home /> },
